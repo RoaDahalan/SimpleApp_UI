@@ -1,3 +1,4 @@
+import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:project5/First.dart';
 import 'package:project5/Second.dart';
@@ -23,10 +24,10 @@ class _Page1State extends State<Page1> {
           labelColor: Colors.white,
             unselectedLabelColor: Colors.grey,
             indicatorColor: Colors.grey,
-            labelStyle: TextStyle(fontSize: 19),
+            labelStyle: TextStyle(fontSize: 16),
             tabs: [
-          Tab(icon: Icon(Icons.private_connectivity , size: 39,), text: "Private Contacts",),
-          Tab(icon: Icon(Icons.work , size: 35,), text: "Work Contacts",),
+          Tab(icon: Icon(Icons.private_connectivity , size: 39,), text: "_private".tr(),),
+          Tab(icon: Icon(Icons.work , size: 35,), text: "_work".tr(),),
         ]),
       ),
 

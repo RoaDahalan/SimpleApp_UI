@@ -1,0 +1,15 @@
+{
+  "_Login": "Login",
+  "_Email": "Email",
+  "_Password": "Password",
+  "_welcome" : "Welcome" ,
+  "_profile" : "profile",
+  "_contacts" : "contacts",
+  "_language" : "language",
+  "_private": "Private Contacts",
+  "_work": "Work Contacts",
+  "_name": "Enter name",
+  "_phone": "Enter phone number",
+  "_add": "Add",
+  "_lang": "Press here to change the app language !"
+}
